@@ -1,0 +1,9 @@
+{% extends 'rango/base.html' %}
+
+{% block title_block %}
+    Restricted Page
+{% endblock %}
+
+{% block body_block %}
+    Hi {{ user.username }}! This is a restricted page. You can see it because you are logged in.
+{% endblock %}
